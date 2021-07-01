@@ -1,0 +1,14 @@
+.link {
+	color: $dark-grey;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.link-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
