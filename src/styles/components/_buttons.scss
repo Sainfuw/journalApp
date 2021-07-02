@@ -5,9 +5,16 @@
 	cursor: pointer;
 	font-size: 12px;
 	padding: 7px 10px 7px 10px;
+	transition: color .8s ease;
 
 	&:focus {
 		outline: none;
+	}
+
+	&:hover {
+		text-decoration: underline;
+		text-underline-offset: 8px;
+		color: darken($color: $white, $amount: 20);
 	}
 }
 
